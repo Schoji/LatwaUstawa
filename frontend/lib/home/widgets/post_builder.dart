@@ -21,8 +21,8 @@ class PostBuilder extends StatelessWidget {
             .map((post) => PostWidget(post: post))
             .toList();
         return Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(spacing: 5, children: children),
+          padding: const EdgeInsets.symmetric(vertical: 20),
+          child: Column(spacing: 10, children: children),
         );
       },
     );

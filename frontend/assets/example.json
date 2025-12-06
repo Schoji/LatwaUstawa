@@ -6,11 +6,11 @@
         "submission_date": "2025-02-15",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "💰 Podnosimy kwotę wolną od podatku do 60 000 zł! \n📉 Mniej podatku dla każdego pracującego. \n🛑 Samorządy mogą stracić część wpływów z PIT.",
+        "ai_summary": "Podnosimy kwotę wolną od podatku do 60 000 zł, co oznacza wyższe pensje netto dla milionów Polaków.\n<ul><li>💰 <b>Mniej podatku</b> dla każdego pracującego na etacie i umowie zlecenie.</li><li>📉 Samorządy ostrzegają, że mogą stracić część wpływów z PIT.</li><li>🛑 Zmiana ma wejść w życie od przyszłego roku podatkowego.</li></ul>",
         "tags": [
-            "Podatki",
-            "Finanse",
-            "Praca"
+            "💰 Podatki",
+            "💸 Finanse",
+            "💼 Praca"
         ],
         "status_normalized": "committee",
         "status_display_name": "Skierowano do I czytania",
@@ -28,11 +28,11 @@
         "submission_date": "2025-02-10",
         "term_number": 10,
         "is_urgent": true,
-        "ai_summary": "🏠 Dopłaty do kredytów hipotecznych dla rodzin. \n📉 Oprocentowanie 0% dla rodzin 3+ dzieci. \n⚠️ Ryzyko wzrostu cen mieszkań przez zwiększony popyt.",
+        "ai_summary": "Nowy program dopłat do kredytów hipotecznych ma ułatwić zakup pierwszego mieszkania dla rodzin wielodzietnych.\n<ul><li>🏠 <b>Kredyt 0%</b> dostępny wyłącznie dla rodzin z trójką lub więcej dzieci.</li><li>📉 Singiel i pary bezdzietne otrzymają mniejsze dopłaty.</li><li>⚠️ Eksperci ostrzegają przed ryzykiem wzrostu cen nieruchomości.</li></ul>",
         "tags": [
-            "Mieszkania",
-            "Rodzina",
-            "Finanse"
+            "🏠 Mieszkania",
+            "👨‍👩‍👧‍👦 Rodzina",
+            "💸 Finanse"
         ],
         "status_normalized": "drafted",
         "status_display_name": "Konsultacje międzyresortowe",
@@ -50,11 +50,11 @@
         "submission_date": "2025-01-20",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "👵 Możliwość łączenia emerytury własnej z częścią renty po zmarłym małżonku. \n💸 Maksymalnie 3-krotność najniższej emerytury. \n📅 Wchodzi w życie w modelu kroczącym (stopniowo).",
+        "ai_summary": "Wdowy i wdowcy będą mogli łączyć własną emeryturę z częścią świadczenia po zmarłym małżonku.\n<ul><li>👵 Możliwość zachowania <b>50% renty rodzinnej</b> przy własnej emeryturze.</li><li>💸 Świadczenie nie może przekroczyć 3-krotności najniższej emerytury.</li><li>📅 Ustawa wchodzi w życie w modelu kroczącym (stopniowo) od 2026 roku.</li></ul>",
         "tags": [
-            "Socjalne",
-            "Seniorzy",
-            "Emerytury"
+            "🤝 Socjalne",
+            "👴 Seniorzy",
+            "🏦 Emerytury"
         ],
         "status_normalized": "voted",
         "status_display_name": "Uchwalono przez Sejm",
@@ -72,11 +72,11 @@
         "submission_date": "2025-02-18",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "🏖️ Skrócenie tygodnia pracy do 35 godzin. \n💼 Wynagrodzenie pozostaje bez zmian. \n🏭 Przedsiębiorcy ostrzegają przed wzrostem kosztów produkcji.",
+        "ai_summary": "Rewolucja w Kodeksie pracy zakłada skrócenie tygodniowego wymiaru czasu pracy przy zachowaniu dotychczasowego wynagrodzenia.\n<ul><li>🏖️ <b>35 godzin pracy</b> w tygodniu zamiast obecnych 40 godzin.</li><li>💼 Wynagrodzenie pracowników pozostaje bez zmian.</li><li>🏭 Organizacje pracodawców protestują, wskazując na wzrost kosztów produkcji.</li></ul>",
         "tags": [
-            "Praca",
-            "Gospodarka",
-            "Zdrowie"
+            "💼 Praca",
+            "📉 Gospodarka",
+            "🏥 Zdrowie"
         ],
         "status_normalized": "rejected",
         "status_display_name": "Odrzucono w I czytaniu",
@@ -94,11 +94,11 @@
         "submission_date": "2025-01-05",
         "term_number": 10,
         "is_urgent": true,
-        "ai_summary": "♻️ Kaucja 50 gr za plastikowe butelki i puszki. \n🛒 Zwrot butelek w każdym dużym sklepie bez paragonu. \n📅 Start systemu przesunięty na styczeń 2026.",
+        "ai_summary": "Wprowadzamy obowiązkową kaucję na opakowania, aby zwiększyć poziom recyklingu w Polsce.\n<ul><li>♻️ <b>50 groszy kaucji</b> doliczane do plastikowych butelek i puszek.</li><li>🛒 Zwrot opakowań w każdym dużym sklepie (powyżej 200m²) bez konieczności okazywania paragonu.</li><li>📅 Start systemu został ostatecznie przesunięty na styczeń 2026 roku.</li></ul>",
         "tags": [
-            "Ekologia",
-            "Handel",
-            "Odpady"
+            "🌱 Ekologia",
+            "🛒 Handel",
+            "🗑️ Odpady"
         ],
         "status_normalized": "passed",
         "status_display_name": "Opublikowano w Dz.U.",
@@ -116,11 +116,11 @@
         "submission_date": "2025-02-22",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "🚫 Uszczelnienie zakazu handlu (koniec z 'czytelnikami' i 'wypożyczalniami'). \n⛪ Powrót 2 niedziel handlowych w miesiącu odrzucony. \n👮 Wyższe kary dla sieci handlowych za łamanie zakazu.",
+        "ai_summary": "Celem projektu jest uszczelnienie przepisów o zakazie handlu w niedziele i likwidacja luk prawnych.\n<ul><li>🚫 Koniec z wyjątkami dla \"klubów czytelnika\" i \"wypożyczalni sprzętu\" w sklepach.</li><li>⛪ Propozycja przywrócenia 2 niedziel handlowych w miesiącu została odrzucona.</li><li>👮 Przewidziano <b>wyższe kary finansowe</b> dla sieci handlowych łamiących zakaz.</li></ul>",
         "tags": [
-            "Handel",
-            "Praca",
-            "Społeczne"
+            "🛒 Handel",
+            "💼 Praca",
+            "👥 Społeczne"
         ],
         "status_normalized": "committee",
         "status_display_name": "Prace w Komisji Gospodarki",
@@ -138,11 +138,11 @@
         "submission_date": "2025-02-28",
         "term_number": 10,
         "is_urgent": true,
-        "ai_summary": "🛡️ Każdy nowy blok mieszkalny musi mieć schron lub ukrycie. \n🏗️ Samorządy dostaną 5 mld zł na inwentaryzację piwnic. \n🚨 Nowy system powiadamiania SMS o zagrożeniach.",
+        "ai_summary": "Nowa ustawa o obronie cywilnej nakłada obowiązek budowy schronów w nowych inwestycjach mieszkaniowych.\n<ul><li>🛡️ Każdy deweloper będzie musiał zapewnić schron lub ukrycie w nowym bloku.</li><li>🏗️ Samorządy otrzymają <b>5 mld zł</b> na inwentaryzację i remont piwnic.</li><li>🚨 Powstanie nowy, zintegrowany system powiadamiania SMS o zagrożeniach wojennych.</li></ul>",
         "tags": [
-            "Bezpieczeństwo",
-            "Budownictwo",
-            "Samorządy"
+            "🛡️ Bezpieczeństwo",
+            "🏗️ Budownictwo",
+            "🏛️ Samorządy"
         ],
         "status_normalized": "drafted",
         "status_display_name": "Wpłynął do Sejmu",
@@ -160,11 +160,11 @@
         "submission_date": "2025-01-15",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "🆓 Przedsiębiorca sam decyduje, czy płaci składki na ubezpieczenie społeczne. \n⚠️ Brak składek oznacza brak emerytury w przyszłości. \n🏥 Składka zdrowotna pozostaje obowiązkowa.",
+        "ai_summary": "Projekt zakłada pełną dobrowolność w opłacaniu składek na ubezpieczenie społeczne dla przedsiębiorców.\n<ul><li>🆓 Przedsiębiorca sam decyduje, czy w danym miesiącu płaci składki na ZUS.</li><li>⚠️ Brak opłacania składek oznacza brak prawa do emerytury państwowej w przyszłości.</li><li>🏥 Składka zdrowotna pozostaje <b>nadal obowiązkowa</b> dla wszystkich.</li></ul>",
         "tags": [
-            "Biznes",
-            "Podatki",
-            "ZUS"
+            "👔 Biznes",
+            "💰 Podatki",
+            "🏦 ZUS"
         ],
         "status_normalized": "committee",
         "status_display_name": "II Czytanie",
@@ -182,11 +182,11 @@
         "submission_date": "2025-02-01",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "🍺 Zakaz sprzedaży alkoholu na stacjach benzynowych w godz. 22:00-6:00. \n🚓 Zwiększenie kar za sprzedaż nieletnim. \n📉 Celem jest zmniejszenie liczby wypadków drogowych.",
+        "ai_summary": "Ograniczenie dostępności alkoholu w godzinach nocnych ma na celu poprawę bezpieczeństwa publicznego.\n<ul><li>🍺 Całkowity <b>zakaz sprzedaży alkoholu</b> na stacjach benzynowych w godzinach 22:00-6:00.</li><li>🚓 Zwiększenie kar finansowych i odebranie koncesji za sprzedaż alkoholu nieletnim.</li><li>📉 Projektodawcy liczą na zmniejszenie liczby wypadków drogowych pod wpływem alkoholu.</li></ul>",
         "tags": [
-            "Zdrowie",
-            "Bezpieczeństwo",
-            "Handel"
+            "🏥 Zdrowie",
+            "🛡️ Bezpieczeństwo",
+            "🛒 Handel"
         ],
         "status_normalized": "drafted",
         "status_display_name": "Konsultacje społeczne",
@@ -204,11 +204,11 @@
         "submission_date": "2025-02-25",
         "term_number": 10,
         "is_urgent": true,
-        "ai_summary": "🤖 Oznaczenie treści generowanych przez AI (watermarking). \n🚫 Zakaz systemów oceny obywateli (social scoring). \n🎓 Nowe granty na badania nad polskim LLM.",
+        "ai_summary": "Wdrożenie unijnych przepisów dotyczących bezpiecznego i etycznego wykorzystania sztucznej inteligencji w Polsce.\n<ul><li>🤖 Obowiązek oznaczania wszystkich treści (tekst, wideo) generowanych przez AI tzw. znakiem wodnym.</li><li>🚫 Całkowity zakaz stosowania systemów oceny obywateli (social scoring) przez państwo.</li><li>🎓 Uruchomienie nowych grantów na badania nad <b>polskim modelem językowym</b> (PL-LLM).</li></ul>",
         "tags": [
-            "Cyfryzacja",
-            "Technologie",
-            "Prawo"
+            "💻 Cyfryzacja",
+            "🤖 Technologie",
+            "⚖️ Prawo"
         ],
         "status_normalized": "drafted",
         "status_display_name": "Wpłynął do laski marszałkowskiej",
@@ -226,11 +226,11 @@
         "submission_date": "2024-12-10",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "🌲 Wyłączenie 20% polskich lasów z wycinki. \n🐻 Utworzenie nowych Parków Narodowych. \n🪵 Ograniczenie eksportu nieprzetworzonego drewna.",
+        "ai_summary": "Radykalne zmiany w gospodarce leśnej mające na celu ochronę najcenniejszych przyrodniczo obszarów Polski.\n<ul><li>🌲 Trwałe wyłączenie <b>20% polskich lasów</b> z jakiejkolwiek wycinki komercyjnej.</li><li>🐻 Utworzenie dwóch nowych Parków Narodowych na terenie Puszczy Karpackiej.</li><li>🪵 Ograniczenie eksportu nieprzetworzonego drewna poza granice Unii Europejskiej.</li></ul>",
         "tags": [
-            "Ekologia",
-            "Leśnictwo",
-            "Gospodarka"
+            "🌱 Ekologia",
+            "🌲 Leśnictwo",
+            "📉 Gospodarka"
         ],
         "status_normalized": "voted",
         "status_display_name": "Senat przyjął poprawki",
@@ -248,11 +248,11 @@
         "submission_date": "2024-11-15",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "💍 Możliwość rejestracji związku w Urzędzie Stanu Cywilnego. \n🏥 Prawo do informacji medycznej o partnerze. \n👨‍👩‍👦 Kwestia przysposobienia dzieci wyłączona z projektu.",
+        "ai_summary": "Projekt wprowadza instytucję związku partnerskiego dla par tej samej i różnej płci.\n<ul><li>💍 Możliwość oficjalnej rejestracji związku w Urzędzie Stanu Cywilnego.</li><li>🏥 Prawo do uzyskiwania informacji medycznej o stanie zdrowia partnera w szpitalu.</li><li>👨‍👩‍👦 Kontrowersyjna kwestia przysposobienia dzieci została <b>wyłączona z projektu</b>.</li></ul>",
         "tags": [
-            "Prawa Człowieka",
-            "Rodzina",
-            "Społeczne"
+            "⚖️ Prawa Człowieka",
+            "👨‍👩‍👧‍👦 Rodzina",
+            "👥 Społeczne"
         ],
         "status_normalized": "committee",
         "status_display_name": "Oczekiwanie na II czytanie",
@@ -270,11 +270,11 @@
         "submission_date": "2025-09-30",
         "term_number": 10,
         "is_urgent": true,
-        "ai_summary": "📊 Deficyt budżetowy na poziomie 5% PKB. \n🪖 Rekordowe wydatki na zbrojenia (4.5% PKB). \n🏫 Podwyżki dla nauczycieli o 5%.",
+        "ai_summary": "Plan finansowy państwa na przyszły rok zakłada wzrost wydatków na obronność i edukację przy rosnącym deficycie.\n<ul><li>📊 Deficyt budżetowy zaplanowano na poziomie <b>5% PKB</b>.</li><li>🪖 Rekordowe w historii wydatki na zbrojenia i modernizację armii (4.5% PKB).</li><li>🏫 Zaplanowano podwyżki wynagrodzeń dla nauczycieli o wskaźnik inflacji plus 5%.</li></ul>",
         "tags": [
-            "Finanse",
-            "Budżet",
-            "Gospodarka"
+            "💸 Finanse",
+            "📊 Budżet",
+            "📉 Gospodarka"
         ],
         "status_normalized": "drafted",
         "status_display_name": "Planowane przedłożenie",
@@ -292,11 +292,11 @@
         "submission_date": "2025-01-28",
         "term_number": 10,
         "is_urgent": false,
-        "ai_summary": "🦷 500 zł rocznie na leczenie zębów dla każdego dziecka. \n🩺 Możliwość wykorzystania w prywatnych gabinetach. \n💸 Finansowane z podatku cukrowego.",
+        "ai_summary": "Wsparcie finansowe rodziców w leczeniu stomatologicznym dzieci w obliczu braku dentystów szkolnych.\n<ul><li>🦷 <b>500 zł rocznie</b> w formie bonu na leczenie zębów dla każdego dziecka.</li><li>🩺 Możliwość realizacji bonu w prywatnych gabinetach stomatologicznych.</li><li>💸 Program ma być finansowany z wpływów z tzw. podatku cukrowego.</li></ul>",
         "tags": [
-            "Zdrowie",
-            "Dzieci",
-            "Finanse"
+            "🏥 Zdrowie",
+            "👶 Dzieci",
+            "💸 Finanse"
         ],
         "status_normalized": "rejected",
         "status_display_name": "Odrzucono głosami większości",
@@ -314,11 +314,11 @@
         "submission_date": "2025-02-12",
         "term_number": 10,
         "is_urgent": true,
-        "ai_summary": "🚜 Zniesienie obowiązku ugorowania 4% ziemi. \n📉 Mniej kontroli i raportowania dla małych gospodarstw. \n🌾 Dopłaty do paliwa rolniczego zwiększone o 10%.",
+        "ai_summary": "Pakiet ułatwień dla rolników znoszący część wymogów unijnego Zielonego Ładu.\n<ul><li>🚜 Zniesienie obowiązku <b>ugorowania 4% ziemi</b> ornej dla gospodarstw.</li><li>📉 Znaczne ograniczenie kontroli i raportowania dla gospodarstw poniżej 10 hektarów.</li><li>🌾 Dopłaty do paliwa rolniczego zostaną zwiększone o 10% względem roku ubiegłego.</li></ul>",
         "tags": [
-            "Rolnictwo",
-            "UE",
-            "Gospodarka"
+            "🚜 Rolnictwo",
+            "🇪🇺 UE",
+            "📉 Gospodarka"
         ],
         "status_normalized": "passed",
         "status_display_name": "Podpisano przez Prezydenta",

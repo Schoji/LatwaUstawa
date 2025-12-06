@@ -13,7 +13,7 @@ class BackendService {
 
   Future<List<PostModel>> fetchPosts() async {
     //tutaj będzie wysyłany requeścik :)
-    await Future.delayed(Duration(seconds: 1));
+    // await Future.delayed(Duration(seconds: 1));
     final List<dynamic> json = await loadJsonFromAssets("assets/example.json");
     final List<PostModel> posts = json
         .map((jsonItem) => PostModel.fromJson(jsonItem))

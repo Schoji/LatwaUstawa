@@ -15,8 +15,18 @@ class MyApp extends StatelessWidget {
       title: 'LatwaUstawa',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Geist',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
+      darkTheme: ThemeData.dark().copyWith(
+        textTheme: ThemeData.dark().textTheme.apply(fontFamily: 'Geist'),
+        scaffoldBackgroundColor: Colors.black,
+        colorScheme: ColorScheme.dark().copyWith(
+          onPrimaryContainer: Color(0x0d0d0dFF),
+          onSurfaceVariant: Colors.white.withAlpha(122),
+        ),
+      ),
+
       home: HomePage(),
     );
   }

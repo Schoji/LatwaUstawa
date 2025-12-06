@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:latwe_ustawy/models/post_model.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
@@ -27,7 +28,7 @@ class PostPage extends StatelessWidget {
                 post.title,
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
               ),
-              Text(post.aiSummary, style: TextStyle()),
+              HtmlWidget(post.aiSummary),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
