@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:intl/intl.dart';
+import 'package:latwe_ustawy/home/widgets/like_button.dart';
 import 'package:latwe_ustawy/models/post_model.dart';
 import 'package:latwe_ustawy/post/widgets/tag_badge.dart';
-import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 String fixHtmlList(String html) {
   return html
@@ -28,17 +28,26 @@ class PostPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
     return Scaffold(
-      appBar: AppBar(title: Text("Szczegóły ustawy")),
+      appBar: AppBar(
+        title: Text("Szczegóły ustawy"),
+        shape: Border(
+          bottom: BorderSide(
+            color: Theme.of(context).colorScheme.outlineVariant.withAlpha(50),
+            width: 1,
+          ),
+        ),
+      ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(10),
           child: Container(
             decoration: BoxDecoration(
               color: colors.surfaceContainerLow,
+              border: Border.all(color: colors.onSurfaceVariant.withAlpha(20)),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 20,
@@ -56,6 +65,10 @@ class PostPage extends StatelessWidget {
                   Container(
                     decoration: BoxDecoration(
                       color: colors.surfaceContainerHigh,
+                      border: Border.all(
+                        color: colors.onSurfaceVariant.withAlpha(80),
+                        width: 0.2,
+                      ),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Padding(
@@ -109,14 +122,7 @@ class PostPage extends StatelessWidget {
                     ],
                   ),
 
-                  TextButton.icon(
-                    onPressed: () {},
-                    style: const ButtonStyle(
-                      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                    ),
-                    icon: Icon(LucideIcons.heart),
-                    label: Text(post.likesCount.toString()),
-                  ),
+                  LikeButton(likesCount: post.likesCount),
                 ],
               ),
             ),

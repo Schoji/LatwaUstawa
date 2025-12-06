@@ -11,9 +11,16 @@ class TagBadge extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: colors.surfaceContainerHigh,
-        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: colors.onSurfaceVariant.withAlpha(80),
+          width: 0.2,
+        ),
+        borderRadius: BorderRadius.circular(20),
       ),
-      child: Padding(padding: const EdgeInsets.all(8.0), child: Text(tag)),
+      child: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Text(tag, style: TextStyle(color: colors.onSurfaceVariant)),
+      ),
     );
   }
 }

@@ -12,7 +12,7 @@
             "💸 Finanse",
             "💼 Praca"
         ],
-        "status_normalized": "committee",
+        "status_normalized": "ARCHIVED",
         "status_display_name": "Skierowano do I czytania",
         "legislative_path": "Deputies",
         "sponsor_party": "Koalicja Obywatelska",
@@ -34,7 +34,7 @@
             "👨‍👩‍👧‍👦 Rodzina",
             "💸 Finanse"
         ],
-        "status_normalized": "drafted",
+        "status_normalized": "ARCHIVED",
         "status_display_name": "Konsultacje międzyresortowe",
         "legislative_path": "Government",
         "sponsor_party": "Polska 2050",
@@ -56,7 +56,7 @@
             "👴 Seniorzy",
             "🏦 Emerytury"
         ],
-        "status_normalized": "voted",
+        "status_normalized": "REJECTED",
         "status_display_name": "Uchwalono przez Sejm",
         "legislative_path": "Citizens",
         "sponsor_party": "Lewica",
@@ -78,7 +78,7 @@
             "📉 Gospodarka",
             "🏥 Zdrowie"
         ],
-        "status_normalized": "rejected",
+        "status_normalized": "REJECTED",
         "status_display_name": "Odrzucono w I czytaniu",
         "legislative_path": "Deputies",
         "sponsor_party": "Partia Razem",
@@ -100,7 +100,7 @@
             "🛒 Handel",
             "🗑️ Odpady"
         ],
-        "status_normalized": "passed",
+        "status_normalized": "PASSED",
         "status_display_name": "Opublikowano w Dz.U.",
         "legislative_path": "Government",
         "sponsor_party": "Koalicja Obywatelska",
@@ -122,7 +122,7 @@
             "💼 Praca",
             "👥 Społeczne"
         ],
-        "status_normalized": "committee",
+        "status_normalized": "ARCHIVED",
         "status_display_name": "Prace w Komisji Gospodarki",
         "legislative_path": "Deputies",
         "sponsor_party": "Prawo i Sprawiedliwość",
@@ -144,7 +144,7 @@
             "🏗️ Budownictwo",
             "🏛️ Samorządy"
         ],
-        "status_normalized": "drafted",
+        "status_normalized": "DRAFTED",
         "status_display_name": "Wpłynął do Sejmu",
         "legislative_path": "Government",
         "sponsor_party": "PSL / Trzecia Droga",
@@ -166,7 +166,7 @@
             "💰 Podatki",
             "🏦 ZUS"
         ],
-        "status_normalized": "committee",
+        "status_normalized": "REJECTED",
         "status_display_name": "II Czytanie",
         "legislative_path": "Deputies",
         "sponsor_party": "Konfederacja",
@@ -188,7 +188,7 @@
             "🛡️ Bezpieczeństwo",
             "🛒 Handel"
         ],
-        "status_normalized": "drafted",
+        "status_normalized": "DRAFTED",
         "status_display_name": "Konsultacje społeczne",
         "legislative_path": "Citizens",
         "sponsor_party": "Komitet Obywatelski",
@@ -210,7 +210,7 @@
             "🤖 Technologie",
             "⚖️ Prawo"
         ],
-        "status_normalized": "drafted",
+        "status_normalized": "DRAFTED",
         "status_display_name": "Wpłynął do laski marszałkowskiej",
         "legislative_path": "Government",
         "sponsor_party": "Koalicja Obywatelska",
@@ -232,7 +232,7 @@
             "🌲 Leśnictwo",
             "📉 Gospodarka"
         ],
-        "status_normalized": "voted",
+        "status_normalized": "PASSED",
         "status_display_name": "Senat przyjął poprawki",
         "legislative_path": "Senate",
         "sponsor_party": "Niezależni",
@@ -254,7 +254,7 @@
             "👨‍👩‍👧‍👦 Rodzina",
             "👥 Społeczne"
         ],
-        "status_normalized": "committee",
+        "status_normalized": "ARCHIVED",
         "status_display_name": "Oczekiwanie na II czytanie",
         "legislative_path": "Deputies",
         "sponsor_party": "Lewica / KO",
@@ -276,7 +276,7 @@
             "📊 Budżet",
             "📉 Gospodarka"
         ],
-        "status_normalized": "drafted",
+        "status_normalized": "REJECTED",
         "status_display_name": "Planowane przedłożenie",
         "legislative_path": "Government",
         "sponsor_party": "Koalicja Obywatelska",
@@ -298,7 +298,7 @@
             "👶 Dzieci",
             "💸 Finanse"
         ],
-        "status_normalized": "rejected",
+        "status_normalized": "PASSED",
         "status_display_name": "Odrzucono głosami większości",
         "legislative_path": "Deputies",
         "sponsor_party": "Prawo i Sprawiedliwość",
@@ -320,7 +320,7 @@
             "🇪🇺 UE",
             "📉 Gospodarka"
         ],
-        "status_normalized": "passed",
+        "status_normalized": "PASSED",
         "status_display_name": "Podpisano przez Prezydenta",
         "legislative_path": "Government",
         "sponsor_party": "PSL",

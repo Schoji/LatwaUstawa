@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:latwe_ustawy/home/widgets/like_button.dart';
+import 'package:latwe_ustawy/home/widgets/status_badge.dart';
 import 'package:latwe_ustawy/models/post_model.dart';
 import 'package:latwe_ustawy/post/post_page.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
@@ -44,7 +46,7 @@ class PostWidget extends StatelessWidget {
                     ),
                   ),
                 ),
-                Text(post.statusNormalized, style: TextStyle()),
+                StatusBadge(label: post.statusNormalized),
               ],
             ),
             Text(
@@ -62,14 +64,7 @@ class PostWidget extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                TextButton.icon(
-                  onPressed: () {},
-                  style: const ButtonStyle(
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  icon: Icon(LucideIcons.heart),
-                  label: Text(post.likesCount.toString()),
-                ),
+                LikeButton(likesCount: post.likesCount),
                 TextButton(
                   style: const ButtonStyle(
                     tapTargetSize: MaterialTapTargetSize.shrinkWrap,
