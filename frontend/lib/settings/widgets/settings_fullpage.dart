@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:latwe_ustawy/settings/widgets/section_widget.dart';
 
 class SettingsFullpage extends StatelessWidget {
   const SettingsFullpage({super.key, required this.title, this.children});
@@ -10,8 +9,16 @@ class SettingsFullpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: SectionWidget(label: "O aplikacji", children: children ?? []),
+      appBar: AppBar(
+        title: Text(title),
+        shape: Border(
+          bottom: BorderSide(
+            color: Theme.of(context).colorScheme.outlineVariant.withAlpha(50),
+            width: 1,
+          ),
+        ),
+      ),
+      body: Column(children: children ?? []),
     );
   }
 }
