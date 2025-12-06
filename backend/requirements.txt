@@ -4,3 +4,5 @@ uvicorn
 sqlalchemy 
 pymysql
 pillow
+openai
+python-dotenv
