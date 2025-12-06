@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:intl/intl.dart';
+import 'package:latwe_ustawy/home/widgets/like_button.dart';
 import 'package:latwe_ustawy/models/post_model.dart';
 import 'package:latwe_ustawy/post/widgets/tag_badge.dart';
-import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 String fixHtmlList(String html) {
   return html
@@ -109,14 +109,7 @@ class PostPage extends StatelessWidget {
                     ],
                   ),
 
-                  TextButton.icon(
-                    onPressed: () {},
-                    style: const ButtonStyle(
-                      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                    ),
-                    icon: Icon(LucideIcons.heart),
-                    label: Text(post.likesCount.toString()),
-                  ),
+                  LikeButton(likesCount: post.likesCount),
                 ],
               ),
             ),
