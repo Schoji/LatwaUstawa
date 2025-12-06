@@ -23,8 +23,9 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
         colorScheme: ColorScheme.dark().copyWith(
           primary: Colors.red.shade300,
-          surfaceContainerHigh: Color.fromARGB(255, 25, 25, 25),
-          onPrimaryContainer: Color(0x0d0d0dFF),
+          surfaceContainerLow: Color.fromARGB(255, 13, 13, 13),
+          surfaceContainerHigh: Color.fromARGB(255, 21, 21, 21),
+          onPrimaryContainer: Color.fromARGB(13, 72, 72, 72),
           onSurfaceVariant: Colors.white.withAlpha(150),
         ),
         appBarTheme: AppBarTheme(backgroundColor: Colors.black),

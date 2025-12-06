@@ -55,30 +55,20 @@ class PostWidget extends StatelessWidget {
               "${post.aiSummary.split(".")[0]}.",
               style: TextStyle(color: colors.onSurfaceVariant),
             ),
-            Container(
-              decoration: BoxDecoration(
-                color: colors.surfaceContainerHigh,
-                border: Border.all(
-                  color: colors.onSurfaceVariant.withAlpha(80),
-                  width: 0.2,
-                ),
-                borderRadius: BorderRadius.all(Radius.circular(20)),
-              ),
-              child: TextButton.icon(
-                onPressed: () {},
-                style: const ButtonStyle(
-                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                ),
-                icon: Icon(LucideIcons.heart),
-                label: Text(post.likesCount.toString()),
-              ),
+            Text(
+              post.representativeName,
+              style: TextStyle(color: colors.onSurfaceVariant),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  post.representativeName,
-                  style: TextStyle(color: colors.onSurfaceVariant),
+                TextButton.icon(
+                  onPressed: () {},
+                  style: const ButtonStyle(
+                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  icon: Icon(LucideIcons.heart),
+                  label: Text(post.likesCount.toString()),
                 ),
                 TextButton(
                   style: const ButtonStyle(
