@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
           onPrimaryContainer: Color(0x0d0d0dFF),
           onSurfaceVariant: Colors.white.withAlpha(150),
         ),
+        appBarTheme: AppBarTheme(backgroundColor: Colors.black),
       ),
 
       home: HomePage(),

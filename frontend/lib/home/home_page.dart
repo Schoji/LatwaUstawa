@@ -10,6 +10,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        shape: Border(
+          bottom: BorderSide(
+            color: Theme.of(context).colorScheme.outlineVariant.withAlpha(50),
+            width: 1,
+          ),
+        ),
         title: Text(
           "Łatwa Ustawa",
           style: TextStyle(fontWeight: FontWeight.bold),

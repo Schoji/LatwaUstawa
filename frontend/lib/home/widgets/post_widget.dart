@@ -5,7 +5,6 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class PostWidget extends StatelessWidget {
   const PostWidget({super.key, required this.post});
-
   final PostModel post;
 
   @override
