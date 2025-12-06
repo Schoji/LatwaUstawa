@@ -22,8 +22,10 @@ class MyApp extends StatelessWidget {
         textTheme: ThemeData.dark().textTheme.apply(fontFamily: 'Geist'),
         scaffoldBackgroundColor: Colors.black,
         colorScheme: ColorScheme.dark().copyWith(
+          primary: Colors.red.shade300,
+          surfaceContainerHigh: Color.fromARGB(255, 25, 25, 25),
           onPrimaryContainer: Color(0x0d0d0dFF),
-          onSurfaceVariant: Colors.white.withAlpha(122),
+          onSurfaceVariant: Colors.white.withAlpha(150),
         ),
       ),
 
