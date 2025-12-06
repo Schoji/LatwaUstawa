@@ -8,7 +8,7 @@ class SectionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final colors = Theme.of(context).colorScheme;
+    final colors = Theme.of(context).colorScheme;
     return Material(
       color: Colors.transparent,
       child: InkWell(
@@ -20,7 +20,7 @@ class SectionButton extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             spacing: 20,
             children: [
-              Icon(icon, size: 22),
+              Icon(icon, size: 22, color: colors.onSurfaceVariant),
               Text(
                 label,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
