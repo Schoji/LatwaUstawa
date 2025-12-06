@@ -6,3 +6,5 @@ pymysql
 pillow
 openai
 python-dotenv
+httpx
+python-docx

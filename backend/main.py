@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-# from routes import process_data, legislation_data
+from routes import acquisition, legislation
 from models import *  # Ensure all models are imported
 from db import engine, Base
 
@@ -22,8 +22,8 @@ app.add_middleware(
 )
 
 # Include API routers
-# app.include_router(process_data)
-# app.include_router(legislation_data)
+# app.include_router(legislation) # Data passed to frontend
+app.include_router(acquisition) # Data acquisition from Sejm API
 
 # Initialize and create the database tables
 try:
