@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:latwe_ustawy/settings/widgets/section_button.dart';
 import 'package:latwe_ustawy/settings/widgets/section_widget.dart';
+import 'package:latwe_ustawy/settings/widgets/settings_fullpage.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -29,8 +30,37 @@ class SettingsPage extends StatelessWidget {
                   SectionButton(
                     label: "Ochrona o danych osobowych",
                     icon: LucideIcons.shield,
+                    action: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute<void>(
+                          builder: (context) => SettingsFullpage(
+                            title: "Ochrona o danych osobowych",
+                            children: [
+                              SectionButton(
+                                label: "Wersja aplikacji",
+                                icon: LucideIcons.alignVerticalSpaceAround,
+                                clickable: false,
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
+                    },
                   ),
-                  SectionButton(label: "O aplikacji", icon: LucideIcons.info),
+                  SectionButton(
+                    label: "O aplikacji",
+                    icon: LucideIcons.info,
+                    action: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute<void>(
+                          builder: (context) =>
+                              SettingsFullpage(title: "O aplikacji"),
+                        ),
+                      );
+                    },
+                  ),
                 ],
               ),
             ],

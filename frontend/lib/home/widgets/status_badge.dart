@@ -9,11 +9,11 @@ class StatusBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Map<String, Color> statusColor = {
-      "DRAFTED": Colors.blue.shade300,
-      "ARCHIVED": Colors.yellow.shade300,
-      "REJECTED": Colors.red.shade400,
-      "PASSED": Colors.green.shade300,
+    final Map<String, Map<String, dynamic>> statusColor = {
+      "DRAFTED": {"color": Colors.blue.shade300, "icon": LucideIcons.archive},
+      "ARCHIVED": {"color": Colors.yellow.shade300, "icon": LucideIcons.toilet},
+      "REJECTED": {"color": Colors.red.shade400, "icon": LucideIcons.skull},
+      "PASSED": {"color": Colors.green.shade300, "icon": LucideIcons.skull},
     };
     return Container(
       // decoration: BoxDecoration(
@@ -25,10 +25,14 @@ class StatusBadge extends StatelessWidget {
         child: Row(
           spacing: 5,
           children: [
-            Icon(LucideIcons.archive, size: 16, color: statusColor[label]),
+            Icon(
+              statusColor[label]!["icon"],
+              size: 16,
+              color: statusColor[label]!["color"],
+            ),
             Text(
               label.toLowerCase().capitalize(),
-              style: TextStyle(color: statusColor[label]),
+              style: TextStyle(color: statusColor[label]!["color"]),
             ),
           ],
         ),

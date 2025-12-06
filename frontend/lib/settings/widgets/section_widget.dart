@@ -12,16 +12,14 @@ class SectionWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
-          padding: const EdgeInsets.all(0),
-
-          child: label != null
-              ? Text(
-                  label!,
-                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
-                )
-              : null,
-        ),
+        if (label != null)
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Text(
+              label!,
+              style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+            ),
+          ),
         Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(12)),
