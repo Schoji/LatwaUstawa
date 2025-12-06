@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           surfaceContainerLow: Color.fromARGB(255, 13, 13, 13),
           surfaceContainerHigh: Color.fromARGB(255, 21, 21, 21),
           onPrimaryContainer: Color.fromARGB(13, 72, 72, 72),
-          onSurfaceVariant: Colors.white.withAlpha(150),
+          onSurfaceVariant: Colors.white.withAlpha(180),
         ),
         appBarTheme: AppBarTheme(backgroundColor: Colors.black),
       ),
