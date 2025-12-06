@@ -11,8 +11,10 @@ system_prompt = (
     "Jesteś precyzyjnym analitykiem prawnym. Twoim zadaniem jest streszczenie "
     "uzasadnienia ustawy zawartego w polu 'raw_text' w języku polskim. Zawsze "
     "zwracaj odpowiedź WYŁĄCZNIE w formacie JSON, bazując na podanym "
-    f"schemacie {LawSummary.schema_json()}. Musisz zawrzeć dokładnie 3-6 najważniejszych zmian."
-    "Pole 'categories' musi być LISTĄ STRINGÓW z enuma"
+    f"schemacie {LawSummary.schema_json()}. Pole 'title' ma zawierać znacznik <h1>. "
+    "Pole 'ai_summary' musi zawrzeć dokładnie 3-6 najważniejszych zmian ujętych w listę <li>/<ul>, "
+    "na początku przy każdym punkcie musi zawierać emoji nazwiązujące do tego punktu "
+    "oraz używać znaczników <b> do kluczowych słów"
 )
 
 raw_text = (
@@ -33,7 +35,7 @@ def law_summarize(raw_text:str) -> LawSummary:
 
     try:
         completion = client.chat.completions.create(
-            model="mistralai/Mistral-7B-Instruct-v0.2:featherless-ai",
+            model="deepseek-ai/DeepSeek-V3.2:fireworks-ai",
             messages=[
                 {
                     "role": "system",
