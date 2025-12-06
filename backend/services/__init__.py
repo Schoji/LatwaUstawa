@@ -1,0 +1,1 @@
+from .ai_processing import law_summarize

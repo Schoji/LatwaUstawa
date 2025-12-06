@@ -10,28 +10,31 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        shape: Border(
+          bottom: BorderSide(
+            color: Theme.of(context).colorScheme.outlineVariant.withAlpha(50),
+            width: 1,
+          ),
+        ),
         title: Text("Settings", style: TextStyle(fontWeight: FontWeight.bold)),
       ),
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SectionWidget(
-              label: "Wygląd",
-              children: [
-                SectionButton(label: "Wygląd", icon: LucideIcons.palette),
-              ],
-            ),
-            SectionWidget(
-              label: "Inne",
-              children: [
-                SectionButton(
-                  label: "Ochrona o danych osobowych",
-                  icon: LucideIcons.shield,
-                ),
-                SectionButton(label: "O aplikacji", icon: LucideIcons.info),
-              ],
-            ),
-          ],
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+          child: Column(
+            children: [
+              SectionWidget(
+                //label: "Inne",
+                children: [
+                  SectionButton(
+                    label: "Ochrona o danych osobowych",
+                    icon: LucideIcons.shield,
+                  ),
+                  SectionButton(label: "O aplikacji", icon: LucideIcons.info),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
