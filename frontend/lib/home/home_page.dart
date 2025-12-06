@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latwe_ustawy/home/widgets/post_builder.dart';
 import 'package:latwe_ustawy/settings/settings_page.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
@@ -27,7 +28,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Center(child: Text("HomePage")),
+      body: SingleChildScrollView(child: Center(child: PostBuilder())),
     );
   }
 }

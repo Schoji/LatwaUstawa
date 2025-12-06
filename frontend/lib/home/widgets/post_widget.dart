@@ -1,20 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:latwe_ustawy/models/post_model.dart';
+import 'package:latwe_ustawy/post/post_page.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
-class PostPage extends StatelessWidget {
-  const PostPage({super.key, required this.post});
+class PostWidget extends StatelessWidget {
+  const PostWidget({super.key, required this.post});
 
   final PostModel post;
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Szczegóły ustawy")),
-      body: SingleChildScrollView(
+    return InkWell(
+      child: Container(
+        width: double.infinity,
+        color: Colors.blueGrey,
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -35,6 +38,7 @@ class PostPage extends StatelessWidget {
                   Text(post.likesCount.toString()),
                 ],
               ),
+              Divider(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

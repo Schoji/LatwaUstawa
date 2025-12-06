@@ -35,6 +35,8 @@ class PostModel {
     required this.likesCount,
     required this.justificationPdf,
     required this.sourceLink,
+    required this.sponsorParty,
+    required this.representativeName,
   });
 
   final int id;
@@ -51,6 +53,8 @@ class PostModel {
   final int likesCount;
   final String justificationPdf;
   final String sourceLink;
+  final String sponsorParty;
+  final String representativeName;
 
   PostModel.fromJson(Map<String, dynamic> json)
     : id = json["id"] as int,
@@ -68,5 +72,12 @@ class PostModel {
       statusLegislativePath = json["legislative_path"] as String,
       likesCount = json["likes_count"] as int,
       justificationPdf = json["justification_pdf"] as String,
-      sourceLink = json["source_link"] as String;
+      sourceLink = json["source_link"] as String,
+      sponsorParty = json["sponsor_party"] as String,
+      representativeName = json["representative_name"] as String;
+
+  @override
+  String toString() {
+    return 'PostModel(id: $id, sourceId: $sourceId, title: $title, submissionDate: $submissionDate, termNumber: $termNumber, isUrgent: $isUrgent, aiSummary: ${aiSummary.length > 120 ? '${aiSummary.substring(0, 120)}…' : aiSummary}, tags: $tags, statusNormalized: $statusNormalized, statusDisplayName: $statusDisplayName, statusLegislativePath: $statusLegislativePath, likesCount: $likesCount, justificationPdf: $justificationPdf, sourceLink: $sourceLink, representative: $representativeName, sponsorParty: $sponsorParty)';
+  }
 }

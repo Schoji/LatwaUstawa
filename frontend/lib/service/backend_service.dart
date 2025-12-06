@@ -14,12 +14,15 @@ class BackendService {
   Future<List<PostModel>> fetchPosts() async {
     //tutaj będzie wysyłany requeścik :)
     await Future.delayed(Duration(seconds: 1));
-    final json = await loadJsonFromAssets("assets/example.json");
-    final response = PostModel.fromJson(json);
-    return [response];
+    final List<dynamic> json = await loadJsonFromAssets("assets/example.json");
+    final List<PostModel> posts = json
+        .map((jsonItem) => PostModel.fromJson(jsonItem))
+        .toList();
+
+    return posts;
   }
 
-  Future<Map<String, dynamic>> loadJsonFromAssets(String filePath) async {
+  Future<List<dynamic>> loadJsonFromAssets(String filePath) async {
     String jsonString = await rootBundle.loadString(filePath);
     return jsonDecode(jsonString);
   }
