@@ -18,7 +18,7 @@ class SettingsFullpage extends StatelessWidget {
           ),
         ),
       ),
-      body: Column(children: children ?? []),
+      body: SingleChildScrollView(child: Column(children: children ?? [])),
     );
   }
 }

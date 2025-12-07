@@ -9,14 +9,21 @@ class StatusBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final Map<String, Map<String, dynamic>> statusColor = {
-      "DRAFTED": {"color": Colors.blue.shade300, "icon": LucideIcons.hourglass},
-      "ARCHIVED": {
-        "color": Colors.yellow.shade300,
-        "icon": LucideIcons.archive,
+      "DRAFTED": {
+        "color": colors.primaryContainer,
+        "icon": LucideIcons.hourglass,
       },
-      "REJECTED": {"color": Colors.red.shade400, "icon": LucideIcons.x},
-      "PASSED": {"color": Colors.green.shade300, "icon": LucideIcons.check},
+      "ARCHIVED": {"color": colors.onPrimaryFixed, "icon": LucideIcons.archive},
+      "REJECTED": {
+        "color": colors.onPrimaryFixedVariant,
+        "icon": LucideIcons.x,
+      },
+      "PASSED": {
+        "color": colors.onSecondaryFixedVariant,
+        "icon": LucideIcons.check,
+      },
     };
     return Container(
       // decoration: BoxDecoration(
