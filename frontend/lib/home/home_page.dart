@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:latwe_ustawy/global/navigation_bar.dart';
+import 'package:latwe_ustawy/global/notifiers.dart';
 import 'package:latwe_ustawy/home/widgets/post_builder.dart';
+import 'package:latwe_ustawy/members/member_builder.dart';
 import 'package:latwe_ustawy/settings/settings_page.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
@@ -34,7 +37,20 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: SingleChildScrollView(child: Center(child: PostBuilder())),
+      bottomNavigationBar: MyNavigationBar(),
+      body: SingleChildScrollView(
+        child: Center(
+          child: ValueListenableBuilder(
+            valueListenable: Notifiers.selectedTab,
+            builder: (context, value, child) {
+              if (value == 0) {
+                return PostBuilder();
+              }
+              return MemberBuilder();
+            },
+          ),
+        ),
+      ),
     );
   }
 }
