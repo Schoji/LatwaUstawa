@@ -3,6 +3,8 @@ import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:intl/intl.dart';
 import 'package:latwe_ustawy/home/widgets/like_button.dart';
 import 'package:latwe_ustawy/models/post_model.dart';
+import 'package:latwe_ustawy/post/widgets/file_widget.dart';
+import 'package:latwe_ustawy/post/widgets/legislation_status.dart';
 import 'package:latwe_ustawy/post/widgets/tag_badge.dart';
 
 String fixHtmlList(String html) {
@@ -123,6 +125,19 @@ class PostPage extends StatelessWidget {
                   ),
 
                   LikeButton(likesCount: post.likesCount),
+                  if (post.steps.isNotEmpty)
+                    LegislationStatus(stages: post.steps),
+                  Text(
+                    "Dokumenty i źródła",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  ),
+                  Column(
+                    spacing: 10,
+                    children: [
+                      FileWidget(fileName: post.justificationPdf),
+                      FileWidget(fileName: post.sourceLink),
+                    ],
+                  ),
                 ],
               ),
             ),

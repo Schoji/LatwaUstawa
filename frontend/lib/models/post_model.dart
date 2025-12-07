@@ -1,24 +1,3 @@
-// [
-//   {
-//     "id": 101,
-//     "source_id": "10PROC55",
-//       "title": "Rządowy projekt ustawy o zmianie ustawy o podatku dochodowym...",
-//       "submission_date": "2024-03-15",
-//       "term_number": 10,
-//       "is_urgent": true
-//       "ai_summary": "Ustawa podnosi kwotę wolną od podatku do 60 tys. zł dla wszystkich pracujących na etacie.",
-//       "tags": ["Podatki", "Praca", "Finanse"],
-//       "status_normalized": "drafted",
-//       "status_display_name": "I czytanie"
-//       "legislative_path": "Government",
-//       "sponsor_party": "Koalicja Obywatelska",
-//       "representative_name": "Jan Kowalski"
-//       "likes_count": 1420 // Tylko globalny licznik
-//       "justification_pdf": "https://api.sejm.gov.pl/...",
-//       "source_link": "http://..."
-//   }
-// ]
-
 class PostModel {
   PostModel({
     required this.id,
@@ -37,6 +16,7 @@ class PostModel {
     required this.sourceLink,
     required this.sponsorParty,
     required this.representativeName,
+    this.steps = const [],
   });
 
   final int id;
@@ -55,6 +35,7 @@ class PostModel {
   final String sourceLink;
   final String sponsorParty;
   final String representativeName;
+  final List<PostStep> steps;
 
   PostModel.fromJson(Map<String, dynamic> json)
     : id = json["id"] as int,
@@ -74,10 +55,44 @@ class PostModel {
       justificationPdf = json["justification_pdf"] as String,
       sourceLink = json["source_link"] as String,
       sponsorParty = json["sponsor_party"] as String,
-      representativeName = json["representative_name"] as String;
+      representativeName = json["representative_name"] as String,
+      steps =
+          (json["steps"] as List<dynamic>?)
+              ?.map((e) => PostStep.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [];
 
   @override
   String toString() {
     return 'PostModel(id: $id, sourceId: $sourceId, title: $title, submissionDate: $submissionDate, termNumber: $termNumber, isUrgent: $isUrgent, aiSummary: ${aiSummary.length > 120 ? '${aiSummary.substring(0, 120)}…' : aiSummary}, tags: $tags, statusNormalized: $statusNormalized, statusDisplayName: $statusDisplayName, statusLegislativePath: $statusLegislativePath, likesCount: $likesCount, justificationPdf: $justificationPdf, sourceLink: $sourceLink, representative: $representativeName, sponsorParty: $sponsorParty)';
+  }
+}
+
+class PostStep {
+  final String date;
+  final String label;
+  final String description;
+  final String iconType; // np. START, VOTE, VETO
+  final bool isCompleted;
+  final bool highlight;
+
+  PostStep({
+    this.date = "",
+    this.label = "",
+    this.description = "",
+    this.iconType = "WORK",
+    this.isCompleted = false,
+    this.highlight = false,
+  });
+
+  factory PostStep.fromJson(Map<String, dynamic> json) {
+    return PostStep(
+      date: json["date"] as String? ?? "",
+      label: json["label"] as String? ?? "",
+      description: json["description"] as String? ?? "",
+      iconType: json["icon_type"] as String? ?? "WORK",
+      isCompleted: json["is_completed"] as bool? ?? false,
+      highlight: json["highlight"] as bool? ?? false,
+    );
   }
 }

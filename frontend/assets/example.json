@@ -19,7 +19,63 @@
         "representative_name": "Jan Kowalski",
         "likes_count": 4520,
         "justification_pdf": "https://api.sejm.gov.pl/sejm/term10/prints/321/uzasadnienie.pdf",
-        "source_link": "https://www.sejm.gov.pl/Sejm10.nsf/druk.xsp?nr=321"
+        "source_link": "https://www.sejm.gov.pl/Sejm10.nsf/druk.xsp?nr=321",
+        "timeline_status": "REJECTED",
+        "steps": [
+            {
+                "date": "2023-11-13",
+                "label": "Wpłynął do Sejmu",
+                "description": "Rozpoczęcie prac legislacyjnych",
+                "icon_type": "START",
+                "is_completed": true,
+                "highlight": false
+            },
+            {
+                "date": "2023-12-19",
+                "label": "Praca w komisjach",
+                "description": "Skierowanie do I czytania",
+                "icon_type": "WORK",
+                "is_completed": true,
+                "highlight": false
+            },
+            {
+                "date": "2023-12-20",
+                "label": "II Czytanie",
+                "description": "Debata w Sejmie",
+                "icon_type": "READING",
+                "is_completed": true,
+                "highlight": false
+            },
+            {
+                "date": "2023-12-21",
+                "label": "Głosowanie Sejmowe",
+                "description": "Wynik: 244 ZA, 22 PRZECIW",
+                "icon_type": "VOTE",
+                "is_completed": true,
+                "highlight": false,
+                "voting_result": {
+                    "yes": 244,
+                    "no": 22,
+                    "abstain": 11
+                }
+            },
+            {
+                "date": "2023-12-22",
+                "label": "Senat",
+                "description": "Nie wniósł poprawek",
+                "icon_type": "SENATE",
+                "is_completed": true,
+                "highlight": false
+            },
+            {
+                "date": "2023-12-27",
+                "label": "WETO Prezydenta",
+                "description": "Prezydent odmówił podpisu",
+                "icon_type": "VETO",
+                "is_completed": true,
+                "highlight": true
+            }
+        ]
     },
     {
         "id": 2,
