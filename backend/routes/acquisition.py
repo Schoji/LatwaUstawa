@@ -12,7 +12,7 @@ from models import Acts, Status_type, ActOrigin, Sources, Tags, Act_tags
 from schemas import SyncResponse, LawSummary
 from services import law_summarize as ai_processing
 
-router = APIRouter(prefix="/acquisition", tags=["acquisition"])
+router_acquisition = APIRouter(prefix="/acquisition", tags=["acquisition"])
 
 # Constants and configurations
 SEJM_API_URL = "https://api.sejm.gov.pl"
@@ -103,7 +103,7 @@ def extract_representative(entry: dict) -> str | None:
 
 # --- Główny Endpoint ---
 
-@router.post("/manualpost", response_model=SyncResponse)
+@router_acquisition.post("/manualpost", response_model=SyncResponse)
 async def manual_post_legislation(
     payload: List[Dict[str, Any]], 
     db: Session = db_dependency
