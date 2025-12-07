@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
 
 class LawCategory(str, Enum):
@@ -13,6 +13,6 @@ class LawCategory(str, Enum):
     INNE = "Inne"
 
 class LawSummary(BaseModel):
-    title: str
-    ai_summary: str
-    categories: List[LawCategory]
+    title: Optional[str] = None
+    ai_summary: Optional[str] = None
+    categories: Optional[List[LawCategory]] = [None]

@@ -5,4 +5,4 @@ class Sources(Base):
     __tablename__ = 'sources'
 
     id = Column(Integer, primary_key=True, index=True)
-    sejm_api_id = Column(String(12), nullable=False)
+    sejm_api_id = Column(String(50), nullable=False)

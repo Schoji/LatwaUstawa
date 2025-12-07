@@ -1,11 +1,14 @@
 import os
 import json
 from openai import OpenAI, APIError
+from pathlib import Path
 from dotenv import load_dotenv
 from pydantic import ValidationError
 from schemas import LawSummary
 
-load_dotenv()
+env_path = Path(__file__).resolve().parent.parent / '.env'
+
+load_dotenv(dotenv_path=env_path)
 
 system_prompt = (
     "Jesteś precyzyjnym analitykiem prawnym. Twoim zadaniem jest streszczenie "

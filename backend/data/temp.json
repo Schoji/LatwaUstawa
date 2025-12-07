@@ -1,0 +1,322 @@
+[
+    {
+        "UE": "NO",
+        "changeDate": "2025-03-06T17:38:22",
+        "description": "projekt dotyczy ograniczenia dostępu do pornografii dla osób poniżej 18 roku życia przez m. in. zobowiązanie administratorów stron pornograficznych do wprowadzenia skutecznej weryfikacji wieku użytkownika; za brak wdrożenia takich działań groziłaby blokada portali przez dostawców Internetu oraz uniemożliwienie im korzystania z usług płatniczych",
+        "documentDate": "2024-12-20",
+        "documentType": "projekt ustawy",
+        "documentTypeEnum": "BILL",
+        "links": [],
+        "number": "1006",
+        "passed": false,
+        "processStartDate": "2024-12-20",
+        "shortenProcedure": false,
+        "term": 10,
+        "title": "Obywatelski projekt ustawy o ochronie małoletnich przed treściami pornograficznymi w Internecie oraz o zmianie ustawy - Prawo telekomunikacyjne",
+        "urgencyStatus": "NORMAL",
+        "webGeneratedDate": "2025-03-11T13:24:57",
+        "print_details": {
+        "additionalPrints": [
+            {
+            "attachments": [
+                "1006-001.pdf"
+            ],
+            "changeDate": "2025-02-05T15:56:56",
+            "deliveryDate": "2025-02-05",
+            "documentDate": "2025-01-27",
+            "number": "1006-001",
+            "numberAssociated": [
+                "1006"
+            ],
+            "processPrint": [
+                "1006"
+            ],
+            "term": 10,
+            "title": "Do druku nr 1006 - opinia NBP (nie zgłoszono uwag)"
+            },
+            {
+            "attachments": [
+                "1006-002.pdf"
+            ],
+            "changeDate": "2025-02-07T14:48:38",
+            "deliveryDate": "2025-02-07",
+            "documentDate": "2025-02-07",
+            "number": "1006-002",
+            "numberAssociated": [
+                "1006"
+            ],
+            "processPrint": [
+                "1006"
+            ],
+            "term": 10,
+            "title": "Do druku nr 1006 - opinia PG ( nie zgłoszono uwag )."
+            },
+            {
+            "attachments": [
+                "1006-003.pdf"
+            ],
+            "changeDate": "2025-02-27T13:19:08",
+            "deliveryDate": "2025-02-27",
+            "documentDate": "2025-02-27",
+            "number": "1006-003",
+            "numberAssociated": [
+                "1006"
+            ],
+            "processPrint": [
+                "1006"
+            ],
+            "term": 10,
+            "title": "Do druku nr 1006 - ocena skutków regulacji."
+            },
+            {
+            "attachments": [
+                "1006-004.pdf"
+            ],
+            "changeDate": "2025-03-06T10:42:07",
+            "deliveryDate": "2025-03-06",
+            "documentDate": "2025-03-05",
+            "number": "1006-004",
+            "numberAssociated": [
+                "1006"
+            ],
+            "processPrint": [
+                "1006"
+            ],
+            "term": 10,
+            "title": "Do druku nr 1006 - opinia PUODO"
+            }
+        ],
+        "attachments": [
+            "1006.pdf"
+        ],
+        "changeDate": "2025-02-05T11:11:16",
+        "deliveryDate": "2025-02-05",
+        "documentDate": "2024-12-20",
+        "number": "1006",
+        "processPrint": [
+            "1006"
+        ],
+        "term": 10,
+        "title": "Obywatelski projekt ustawy o ochronie małoletnich przed treściami pornograficznymi w Internecie oraz o zmianie ustawy - Prawo telekomunikacyjne."
+        },
+        "process_details": {
+        "UE": "NO",
+        "changeDate": "2025-03-06T17:38:22",
+        "description": "projekt dotyczy ograniczenia dostępu do pornografii dla osób poniżej 18 roku życia przez m. in. zobowiązanie administratorów stron pornograficznych do wprowadzenia skutecznej weryfikacji wieku użytkownika; za brak wdrożenia takich działań groziłaby blokada portali przez dostawców Internetu oraz uniemożliwienie im korzystania z usług płatniczych",
+        "documentDate": "2024-12-20",
+        "documentType": "projekt ustawy",
+        "documentTypeEnum": "BILL",
+        "legislativeCommittee": false,
+        "links": [],
+        "number": "1006",
+        "passed": false,
+        "principleOfSubsidiarity": false,
+        "processStartDate": "2024-12-20",
+        "shortenProcedure": false,
+        "stages": [
+            {
+            "date": "2024-12-20",
+            "stageName": "Projekt wpłynął do Sejmu",
+            "printNumber": "1006",
+            "stageType": "Start"
+            },
+            {
+            "children": [
+                {
+                "date": "2025-02-04",
+                "stageName": "Skierowanie",
+                "committeeCode": "Sejm",
+                "stageType": "Referral",
+                "type": "NORMAL"
+                }
+            ],
+            "date": "2025-02-04",
+            "stageName": "Skierowano do I czytania na posiedzeniu Sejmu",
+            "stageType": "ReadingReferral"
+            },
+            {
+            "children": [
+                {
+                "date": "2025-03-06",
+                "stageName": "Skierowanie",
+                "committeeCode": "DIM",
+                "stageType": "Referral",
+                "type": "NORMAL"
+                },
+                {
+                "date": "2025-03-06",
+                "stageName": "Skierowanie",
+                "committeeCode": "CNT",
+                "stageType": "Referral",
+                "type": "NORMAL"
+                }
+            ],
+            "date": "2025-03-06",
+            "stageName": "I czytanie na posiedzeniu Sejmu",
+            "sittingNum": 30,
+            "stageType": "SejmReading"
+            }
+        ],
+        "term": 10,
+        "title": "Obywatelski projekt ustawy o ochronie małoletnich przed treściami pornograficznymi w Internecie oraz o zmianie ustawy - Prawo telekomunikacyjne",
+        "urgencyStatus": "NORMAL",
+        "webGeneratedDate": "2025-03-11T13:24:57"
+        }
+    },
+    {
+        "UE": "NO",
+        "changeDate": "2025-03-19T08:53:54",
+        "closureDate": "2025-01-24",
+        "comments": "W dniu 7 stycznia 2025 r. Pan Poseł Michał Gramatyka został wskazany jako dodatkowy przedstawiciel wnioskodawców. W dniu 12 lutego 2025 r. Pani Poseł Ewa Szymanowska została wskazana jako dodatkowy przedstawiciel wnioskodawców.",
+        "description": "projekt dotyczy zapewnienia stabilności funkcjonowania Rzeczypospolitej zwłaszcza w kontekście wyborów Prezydenta Rzeczypospolitej Polskiej oraz wyborów uzupełniających do Senatu Rzeczypospolitej Polskiej, zarządzonych w 2025 r.",
+        "documentDate": "2024-12-23",
+        "documentType": "projekt ustawy",
+        "documentTypeEnum": "BILL",
+        "links": [],
+        "number": "923",
+        "passed": true,
+        "processStartDate": "2024-12-23",
+        "shortenProcedure": false,
+        "term": 10,
+        "title": "Poselski projekt ustawy o szczególnych rozwiązaniach w zakresie rozpoznawania przez Sąd Najwyższy spraw, związanych z wyborami Prezydenta Rzeczypospolitej Polskiej oraz wyborami uzupełniającymi do Senatu Rzeczypospolitej Polskiej, zarządzonymi w 2025 r.",
+        "titleFinal": "o szczególnych rozwiązaniach w zakresie rozpoznawania przez Sąd Najwyższy spraw związanych z wyborami Prezydenta Rzeczypospolitej Polskiej oraz wyborami uzupełniającymi do Senatu Rzeczypospolitej Polskiej zarządzonymi w 2025 r.",
+        "urgencyStatus": "NORMAL",
+        "webGeneratedDate": "2025-03-19T08:54:09",
+        "print_details": {
+        "additionalPrints": [
+            {
+            "attachments": [
+                "923-001.pdf"
+            ],
+            "changeDate": "2024-12-30T15:57:17",
+            "deliveryDate": "2024-12-30",
+            "documentDate": "2024-12-30",
+            "number": "923-001",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - opinia BEOS"
+            },
+            {
+            "attachments": [
+                "923-002.pdf"
+            ],
+            "changeDate": "2025-01-07T20:59:45",
+            "deliveryDate": "2025-01-07",
+            "documentDate": "2025-01-07",
+            "number": "923-002",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - ocena skutków regulacji"
+            },
+            {
+            "attachments": [
+                "923-003.pdf"
+            ],
+            "changeDate": "2025-02-12T12:45:21",
+            "deliveryDate": "2025-01-07",
+            "documentDate": "2025-01-07",
+            "number": "923-003",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - wyznaczenie dodatkowego przedstawiciela wnioskodawców (Michał Gramatyka)"
+            },
+            {
+            "attachments": [
+                "923-004.pdf"
+            ],
+            "changeDate": "2025-01-17T13:31:51",
+            "deliveryDate": "2025-01-17",
+            "documentDate": "2025-01-15",
+            "number": "923-004",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - opinia HFPC"
+            },
+            {
+            "attachments": [
+                "923-005.pdf"
+            ],
+            "changeDate": "2025-01-22T17:10:03",
+            "deliveryDate": "2025-01-22",
+            "documentDate": "2025-01-22",
+            "number": "923-005",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - opinia KRS"
+            },
+            {
+            "attachments": [
+                "923-006.pdf"
+            ],
+            "changeDate": "2025-01-29T12:34:33",
+            "deliveryDate": "2025-01-29",
+            "documentDate": "2025-01-28",
+            "number": "923-006",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - opinia SN"
+            },
+            {
+            "attachments": [
+                "923-007.pdf"
+            ],
+            "changeDate": "2025-02-12T12:53:16",
+            "deliveryDate": "2025-02-12",
+            "documentDate": "2025-02-12",
+            "number": "923-007",
+            "numberAssociated": [
+                "923"
+            ],
+            "processPrint": [
+                "923"
+            ],
+            "term": 10,
+            "title": "Do druku nr 923 - wyznaczenie dodatkowego przedstawiciela wnioskodawców (Ewa Szymanowska)"
+            }
+        ],
+        "attachments": [
+            "923.pdf",
+            "923-ustawa i uzasadnienie.docx"
+        ],
+        "changeDate": "2025-01-30T08:59:37",
+        "deliveryDate": "2024-12-30",
+        "documentDate": "2024-12-23",
+        "number": "923",
+        "processPrint": [
+            "923"
+        ],
+        "term": 10,
+        "title": "Poselski projekt ustawy o szczególnych rozwiązaniach w zakresie rozpoznawania przez Sąd Najwyższy spraw, związanych z wyborami Prezydenta Rzeczypospolitej Polskiej oraz wyborami uzupełniającymi do Senatu Rzeczypospolitej Polskiej, zarządzonymi w 2025 r."
+        }
+    }
+]
