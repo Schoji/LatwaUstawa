@@ -65,7 +65,7 @@ class SettingsPage extends StatelessWidget {
                                   child: Container(
                                     width: double.infinity,
                                     decoration: BoxDecoration(
-                                      color: colors.surfaceContainerHigh,
+                                      color: colors.surfaceContainerLow,
                                       border: Border.all(
                                         color: colors.onSurfaceVariant
                                             .withAlpha(20),

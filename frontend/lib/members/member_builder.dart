@@ -21,10 +21,14 @@ class MemberBuilder extends StatelessWidget {
 
         if (snapshot.hasData && snapshot.data != null) {
           final members = snapshot.data;
-          return Column(
-            children: members!
-                .map((member) => MemberThumbnail(member: member))
-                .toList(),
+          return Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+            child: Column(
+              spacing: 10,
+              children: members!
+                  .map((member) => MemberThumbnail(member: member))
+                  .toList(),
+            ),
           );
         }
 
